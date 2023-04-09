@@ -16,17 +16,20 @@
     .card{
         position: relative;
         transition: 0.5s;
-        
         margin: 20px;
         background-color: aquamarine;
         width: 320px;
         padding: 10px;
         border-radius: 10px;
+       
 
         
     }
     .card:hover{
-       top:-10;
+       top: -10px;
+       -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+       -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
     }
     .card img{
         border: 1px solid;
@@ -70,9 +73,8 @@
        .card{
         position: relative;
         transition: 0.5s;
-        
         margin: 20px;
-        background-color: aquamarine;
+        background-color:  rgb(188, 247, 227);
         width: 320px;
         padding: 10px;
         border-radius: 10px;
@@ -80,7 +82,10 @@
         
     }
     .card:hover{
-       top:-10;
+       top:-10px;
+       -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+       -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
     }
     .card img{
         border: 1px solid;
