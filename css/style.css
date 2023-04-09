@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../assets/container_bg.png');
+}
 @media screen and (max-width: 500px){
-    *{
-        box-sizing: border-box;
-    }
-    body{
-        margin: 0;
-        padding: 0;
-        background-color: #f1f1f1;
-    }
+  
     #container{
       width: 80%;
       margin: 20px auto;
